@@ -46,7 +46,9 @@ class ViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "SoundClipCell")!
         
-        cell.textLabel?.text = SoundClipData.soundClips[indexPath.row]
+        // get all keys as an array
+        let keys = Array(SoundClipData.soundClips.keys)
+        cell.textLabel?.text = keys[indexPath.row]
         
         return cell
     }
