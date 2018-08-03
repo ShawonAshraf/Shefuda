@@ -13,7 +13,7 @@ import SwiftySound
 final class SoundPlayerController {
     
     // MARK: This class is a singleton
-    static var soundPlayer: SoundPlayerController = SoundPlayerController()
+    static let soundPlayer: SoundPlayerController = SoundPlayerController()
     
     // MARK: Helper methods
     // plays soundclip by title
