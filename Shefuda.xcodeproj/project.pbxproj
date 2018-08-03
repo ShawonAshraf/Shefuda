@@ -13,6 +13,7 @@
 		03BA21C421144AC3006B6B67 /* Shefuda.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03BA21C221144AC3006B6B67 /* Shefuda.xcdatamodeld */; };
 		03BA21C621144AC4006B6B67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BA21C521144AC4006B6B67 /* Assets.xcassets */; };
 		03BA21C921144AC4006B6B67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BA21C721144AC4006B6B67 /* LaunchScreen.storyboard */; };
+		E5C592521B6193C131297519 /* Pods_Shefuda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFD4AF5065FEB5911DC6A43 /* Pods_Shefuda.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		03BA21C521144AC4006B6B67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03BA21C821144AC4006B6B67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03BA21CA21144AC4006B6B67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D663110FCFDDB826C4ACC65 /* Pods-Shefuda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shefuda.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shefuda/Pods-Shefuda.debug.xcconfig"; sourceTree = "<group>"; };
+		B4A9FD43D44BF8512D28EAD8 /* Pods-Shefuda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shefuda.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shefuda/Pods-Shefuda.release.xcconfig"; sourceTree = "<group>"; };
+		CEFD4AF5065FEB5911DC6A43 /* Pods_Shefuda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shefuda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5C592521B6193C131297519 /* Pods_Shefuda.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				03BA21BA21144AC3006B6B67 /* Shefuda */,
 				03BA21B921144AC3006B6B67 /* Products */,
+				C5E3681856133D72A69A7485 /* Pods */,
+				19542BF585A60C40E1211CB3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,23 @@
 			path = Shefuda;
 			sourceTree = "<group>";
 		};
+		19542BF585A60C40E1211CB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEFD4AF5065FEB5911DC6A43 /* Pods_Shefuda.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5E3681856133D72A69A7485 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D663110FCFDDB826C4ACC65 /* Pods-Shefuda.debug.xcconfig */,
+				B4A9FD43D44BF8512D28EAD8 /* Pods-Shefuda.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03BA21CD21144AC4006B6B67 /* Build configuration list for PBXNativeTarget "Shefuda" */;
 			buildPhases = (
+				F94E0D4D38892051172FC341 /* [CP] Check Pods Manifest.lock */,
 				03BA21B421144AC3006B6B67 /* Sources */,
 				03BA21B521144AC3006B6B67 /* Frameworks */,
 				03BA21B621144AC3006B6B67 /* Resources */,
+				5BC903453BE52F1AF5EB5D74 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +158,47 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BC903453BE52F1AF5EB5D74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Shefuda/Pods-Shefuda-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftySound/SwiftySound.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftySound.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shefuda/Pods-Shefuda-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F94E0D4D38892051172FC341 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shefuda-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		03BA21B421144AC3006B6B67 /* Sources */ = {
@@ -282,6 +349,7 @@
 		};
 		03BA21CE21144AC4006B6B67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D663110FCFDDB826C4ACC65 /* Pods-Shefuda.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +367,7 @@
 		};
 		03BA21CF21144AC4006B6B67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4A9FD43D44BF8512D28EAD8 /* Pods-Shefuda.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
