@@ -10,10 +10,12 @@ import Foundation
 import SwiftySound
 
 
-class SoundPlayerController {
+final class SoundPlayerController {
     
     // MARK: This class is a singleton
+    static var soundPlayer: SoundPlayerController = SoundPlayerController()
     
+    // MARK: Helper methods
     // plays soundclip by title
     func play(soundTitle title: String) {
         // fetch sound URL
