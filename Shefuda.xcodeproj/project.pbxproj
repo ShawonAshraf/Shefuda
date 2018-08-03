@@ -13,6 +13,7 @@
 		03BA21C421144AC3006B6B67 /* Shefuda.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03BA21C221144AC3006B6B67 /* Shefuda.xcdatamodeld */; };
 		03BA21C621144AC4006B6B67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BA21C521144AC4006B6B67 /* Assets.xcassets */; };
 		03BA21C921144AC4006B6B67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BA21C721144AC4006B6B67 /* LaunchScreen.storyboard */; };
+		03BA21D421145448006B6B67 /* SoundClipData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BA21D321145448006B6B67 /* SoundClipData.swift */; };
 		E5C592521B6193C131297519 /* Pods_Shefuda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFD4AF5065FEB5911DC6A43 /* Pods_Shefuda.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		03BA21C521144AC4006B6B67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03BA21C821144AC4006B6B67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03BA21CA21144AC4006B6B67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03BA21D321145448006B6B67 /* SoundClipData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundClipData.swift; sourceTree = "<group>"; };
 		1D663110FCFDDB826C4ACC65 /* Pods-Shefuda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shefuda.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shefuda/Pods-Shefuda.debug.xcconfig"; sourceTree = "<group>"; };
 		B4A9FD43D44BF8512D28EAD8 /* Pods-Shefuda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shefuda.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shefuda/Pods-Shefuda.release.xcconfig"; sourceTree = "<group>"; };
 		CEFD4AF5065FEB5911DC6A43 /* Pods_Shefuda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shefuda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +70,7 @@
 				03BA21D121144CAA006B6B67 /* View */,
 				03BA21D221144CBD006B6B67 /* Supporting Files */,
 				03BA21CA21144AC4006B6B67 /* Info.plist */,
+				03BA21D52114544F006B6B67 /* Data Model */,
 			);
 			path = Shefuda;
 			sourceTree = "<group>";
@@ -96,6 +99,14 @@
 				03BA21C221144AC3006B6B67 /* Shefuda.xcdatamodeld */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03BA21D52114544F006B6B67 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				03BA21D321145448006B6B67 /* SoundClipData.swift */,
+			);
+			path = "Data Model";
 			sourceTree = "<group>";
 		};
 		19542BF585A60C40E1211CB3 /* Frameworks */ = {
@@ -230,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03BA21BE21144AC3006B6B67 /* ViewController.swift in Sources */,
+				03BA21D421145448006B6B67 /* SoundClipData.swift in Sources */,
 				03BA21BC21144AC3006B6B67 /* AppDelegate.swift in Sources */,
 				03BA21C421144AC3006B6B67 /* Shefuda.xcdatamodeld in Sources */,
 			);
