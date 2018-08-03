@@ -7,6 +7,5 @@ target 'Shefuda' do
 
   # Pods for Shefuda
   pod 'SwiftySound'
-  pod 'SVProgressHUD'
 
 end
