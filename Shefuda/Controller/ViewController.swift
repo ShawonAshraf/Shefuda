@@ -31,7 +31,10 @@ class ViewController: UITableViewController {
         let title = cell?.textLabel?.text
         
         // toggle playing state
-        self.isPlaying = !self.isPlaying
+        if isPlaying {
+            SoundPlayerController.soundPlayer.stop()
+            isPlaying = !isPlaying
+        }
         
         // send title to player
         SoundPlayerController.soundPlayer.play(soundTitle: title!)
