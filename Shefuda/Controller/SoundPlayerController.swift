@@ -45,4 +45,9 @@ final class SoundPlayerController {
         }
     }
     
+    // stop playing
+    func stop() {
+        Sound.stopAll()
+    }
+    
 }
