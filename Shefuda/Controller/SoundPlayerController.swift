@@ -29,9 +29,7 @@ final class SoundPlayerController {
     
     // gets soundfile url by title
     func getSoundFileURL(title: String) -> URL? {
-        // fetch from static array
-        let index = SoundClipData.soundClips.index(of: title)!
-        let soundResource = SoundClipData.soundClips[index]
+        let soundResource = SoundClipData.soundClips[title]
         
         let file = Bundle.main.path(forResource: soundResource, ofType: SoundClipData.fileExtension)
         
