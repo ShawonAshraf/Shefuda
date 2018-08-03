@@ -75,7 +75,7 @@ class SoundClipData {
         "খানকি":"khanki",
         "মদ খাবো আর মাগী সুদবো":"mod khabo ar magi sudbo",
         "মাদারফাকার বাস্টার্ড জারজ":"MOTHERFUCKER BASTARD JAROZ",
-        "ত্বদের মই ঘৃণা করি":"toder ami ghrina kori",
+        "তোদের আমি ঘৃণা করি":"toder ami ghrina kori",
         "কুত্তা দিয়া সোদাইতে সোদাইতে":"kutta diya sodaite sodaite",
         "তগরে আমি কুত্তা দিয়া চোদাই":"togore ami kutta diya chodai",
         "মাগী সুদো":"magi sudo",
