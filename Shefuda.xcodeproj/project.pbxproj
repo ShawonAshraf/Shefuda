@@ -64,14 +64,38 @@
 			isa = PBXGroup;
 			children = (
 				03BA21BB21144AC3006B6B67 /* AppDelegate.swift */,
-				03BA21BD21144AC3006B6B67 /* ViewController.swift */,
-				03BA21BF21144AC3006B6B67 /* Main.storyboard */,
-				03BA21C521144AC4006B6B67 /* Assets.xcassets */,
-				03BA21C721144AC4006B6B67 /* LaunchScreen.storyboard */,
+				03BA21D021144C9B006B6B67 /* Controller */,
+				03BA21D121144CAA006B6B67 /* View */,
+				03BA21D221144CBD006B6B67 /* Supporting Files */,
 				03BA21CA21144AC4006B6B67 /* Info.plist */,
-				03BA21C221144AC3006B6B67 /* Shefuda.xcdatamodeld */,
 			);
 			path = Shefuda;
+			sourceTree = "<group>";
+		};
+		03BA21D021144C9B006B6B67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				03BA21BD21144AC3006B6B67 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		03BA21D121144CAA006B6B67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03BA21BF21144AC3006B6B67 /* Main.storyboard */,
+				03BA21C721144AC4006B6B67 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03BA21D221144CBD006B6B67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03BA21C521144AC4006B6B67 /* Assets.xcassets */,
+				03BA21C221144AC3006B6B67 /* Shefuda.xcdatamodeld */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		19542BF585A60C40E1211CB3 /* Frameworks */ = {
