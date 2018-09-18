@@ -1,8 +1,10 @@
 # Shefuda
 > A Shefatullah Soundboard app for iOS
 
+[![Build Status](https://travis-ci.org/ShawonAshraf/Shefuda.svg?branch=master)](https://travis-ci.org/ShawonAshraf/Shefuda)
+
 ## Why though?
-Recently someone took the generous task of creating sound clips from the famous/infamous facebook live video of Shefatullah and developed a soundboard app for Android. So I thought, why not one for iOS? 
+Recently someone took the generous task of creating sound clips from the famous/infamous facebook live video of Shefatullah and developed a soundboard app for Android. So I thought, why not one for iOS?
 
 ## Who is Shefatullah?
 Seriously? You should commit Harakiri.
@@ -16,6 +18,13 @@ The project was built against iOS 11.4 SDK. Should work on iOS 10 as well (not t
 ## Running the project
 First of all you need a mac with macOS and Xcode installed. No you can't do it on any other OS (not even on windows in bootcamp).
 
+- Install Homebrew from [here](https://brew.sh/)
+- Run the following commands
+```bash
+brew update
+brew install ruby
+sudo gem install cocoapods
+```
 - Clone the repo or download as zip.
 - `cd` into the folder with `Terminal` or `iTerm2`
 - Install the pods
