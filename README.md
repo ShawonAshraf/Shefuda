@@ -32,10 +32,10 @@ sudo gem install cocoapods
 pod install
 ```
 - Open the `Shefuda.xcworkspace` file. (Opens in Xcode)
-- Run it on your device on simulator
+- Run it on your device or simulator.
 
 ## Device Support
-Universal
+iPhone and iPad
 
 ## Side loading on your device
 You can do that from Xcode. Just make sure you have your Apple ID. You can follow this [tutorial](https://youtu.be/VvrBbBjP-Hs) or [this one](https://youtu.be/bpyslMcAsgs).
