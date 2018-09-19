@@ -7,6 +7,9 @@ before_install:
   - gem install cocoapods
   - gem install xcpretty -N
   - brew update
+dependencies:
+  pre:
+    - xcrun instruments -w 'iPhone X (11.4)' || sleep 15
 script:
   - set -o pipefail
   - xcodebuild -workspace Shefuda.xcworkspace -scheme Shefuda -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
