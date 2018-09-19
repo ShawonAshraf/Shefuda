@@ -7,7 +7,6 @@ before_install:
   - gem install cocoapods
   - gem install xcpretty -N
   - brew update
-  - brew install swiftlint || true
 script:
   - set -o pipefail
-  - xcodebuild -workspace Gigsterous.xcworkspace -scheme Gigsterous -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
+  - xcodebuild -workspace Shefuda.xcworkspace -scheme Shefuda -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
