@@ -3,8 +3,6 @@
 
 [![Build Status](https://travis-ci.org/ShawonAshraf/Shefuda.svg?branch=master)](https://travis-ci.org/ShawonAshraf/Shefuda)
 
-> Currently builds are failing because travis doesn't have iOS 12 simulator yet!
-
 ## Why though?
 Recently someone took the generous task of creating sound clips from the famous/infamous facebook live video of Shefatullah and developed a soundboard app for Android. So I thought, why not one for iOS?
 
