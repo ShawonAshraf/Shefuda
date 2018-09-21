@@ -9,15 +9,16 @@ Recently someone took the generous task of creating sound clips from the famous/
 ## Who is Shefatullah?
 Seriously? You should commit Harakiri.
 
+## Current number of Shefuda clips
+**`201`**
+
 ## Platforms Supported
 
 ```json
 {
-  "minimum": "iOS 11.4",
-  "maximum": "iOS 12.0"
+  "minimum": "iOS 11.4"
 }
 ```
-
 
 ## Dependencies
 `SwiftySound` from `Cocoapods`.
@@ -48,7 +49,12 @@ iPhone and iPad
 You can do that from Xcode. Just make sure you have your Apple ID. You can follow this [tutorial](https://youtu.be/VvrBbBjP-Hs) or [this one](https://youtu.be/bpyslMcAsgs).
 
 ## Screenshots?
-NSFW.
+**NSFW Filtered!**
+
+<img src="https://uzzcew.ch.files.1drv.com/y4mvM9KZ7Rj6ipfwX4Xd0AtwjzlGGzwUEbTqaKRihAXo3d6seEIOCQfTZnc-_54ihIW_HdZonQ9S-2p5V_uqr996is-0GNqd2KrmUW8q2lDtsuhDPoBNppr87n2WR_7dk4mb0uckt_lHDzIm-Rs521XIIoZZnCM35p3WgTBF9GYZr561o92KtgmPtjv94KHcGtj?width=1090&height=1928&cropmode=none"/>
 
 ## License
 MIT
+
+## Acknowledgements
+I don't know I would've written all those labels in Bangla without [iAvro](https://www.omicronlab.com/iavro.html).
