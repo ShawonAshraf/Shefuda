@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		038923D0215539BD0090A698 /* ShefudaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038923CF215539BD0090A698 /* ShefudaTests.swift */; };
 		03BA21BC21144AC3006B6B67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BA21BB21144AC3006B6B67 /* AppDelegate.swift */; };
 		03BA21BE21144AC3006B6B67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BA21BD21144AC3006B6B67 /* ViewController.swift */; };
 		03BA21C121144AC3006B6B67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BA21BF21144AC3006B6B67 /* Main.storyboard */; };
@@ -90,7 +91,20 @@
 		E5C592521B6193C131297519 /* Pods_Shefuda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFD4AF5065FEB5911DC6A43 /* Pods_Shefuda.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		038923D2215539BD0090A698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03BA21B021144AC2006B6B67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03BA21B721144AC3006B6B67;
+			remoteInfo = Shefuda;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		038923CD215539BC0090A698 /* ShefudaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShefudaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		038923CF215539BD0090A698 /* ShefudaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShefudaTests.swift; sourceTree = "<group>"; };
+		038923D1215539BD0090A698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03BA21B821144AC3006B6B67 /* Shefuda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shefuda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03BA21BB21144AC3006B6B67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03BA21BD21144AC3006B6B67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -179,6 +193,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		038923CA215539BC0090A698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		03BA21B521144AC3006B6B67 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -190,10 +211,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		038923CE215539BC0090A698 /* ShefudaTests */ = {
+			isa = PBXGroup;
+			children = (
+				038923CF215539BD0090A698 /* ShefudaTests.swift */,
+				038923D1215539BD0090A698 /* Info.plist */,
+			);
+			path = ShefudaTests;
+			sourceTree = "<group>";
+		};
 		03BA21AF21144AC2006B6B67 = {
 			isa = PBXGroup;
 			children = (
 				03BA21BA21144AC3006B6B67 /* Shefuda */,
+				038923CE215539BC0090A698 /* ShefudaTests */,
 				03BA21B921144AC3006B6B67 /* Products */,
 				C5E3681856133D72A69A7485 /* Pods */,
 				19542BF585A60C40E1211CB3 /* Frameworks */,
@@ -204,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				03BA21B821144AC3006B6B67 /* Shefuda.app */,
+				038923CD215539BC0090A698 /* ShefudaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -356,6 +388,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		038923CC215539BC0090A698 /* ShefudaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 038923D6215539BD0090A698 /* Build configuration list for PBXNativeTarget "ShefudaTests" */;
+			buildPhases = (
+				038923C9215539BC0090A698 /* Sources */,
+				038923CA215539BC0090A698 /* Frameworks */,
+				038923CB215539BC0090A698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				038923D3215539BD0090A698 /* PBXTargetDependency */,
+			);
+			name = ShefudaTests;
+			productName = ShefudaTests;
+			productReference = 038923CD215539BC0090A698 /* ShefudaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		03BA21B721144AC3006B6B67 /* Shefuda */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03BA21CD21144AC4006B6B67 /* Build configuration list for PBXNativeTarget "Shefuda" */;
@@ -381,10 +431,14 @@
 		03BA21B021144AC2006B6B67 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
+				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Shawon Ashraf";
 				TargetAttributes = {
+					038923CC215539BC0090A698 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 03BA21B721144AC3006B6B67;
+					};
 					03BA21B721144AC3006B6B67 = {
 						CreatedOnToolsVersion = 9.4.1;
 						LastSwiftMigration = 1000;
@@ -405,11 +459,19 @@
 			projectRoot = "";
 			targets = (
 				03BA21B721144AC3006B6B67 /* Shefuda */,
+				038923CC215539BC0090A698 /* ShefudaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		038923CB215539BC0090A698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		03BA21B621144AC3006B6B67 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -534,6 +596,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		038923C9215539BC0090A698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038923D0215539BD0090A698 /* ShefudaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		03BA21B421144AC3006B6B67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -547,6 +617,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		038923D3215539BD0090A698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03BA21B721144AC3006B6B67 /* Shefuda */;
+			targetProxy = 038923D2215539BD0090A698 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		03BA21BF21144AC3006B6B67 /* Main.storyboard */ = {
@@ -568,6 +646,51 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		038923D4215539BD0090A698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF3Y7UU4D6;
+				INFOPLIST_FILE = ShefudaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = shawonashraf.ShefudaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shefuda.app/Shefuda";
+			};
+			name = Debug;
+		};
+		038923D5215539BD0090A698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF3Y7UU4D6;
+				INFOPLIST_FILE = ShefudaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = shawonashraf.ShefudaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shefuda.app/Shefuda";
+			};
+			name = Release;
+		};
 		03BA21CB21144AC4006B6B67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -729,6 +852,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		038923D6215539BD0090A698 /* Build configuration list for PBXNativeTarget "ShefudaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				038923D4215539BD0090A698 /* Debug */,
+				038923D5215539BD0090A698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		03BA21B321144AC2006B6B67 /* Build configuration list for PBXProject "Shefuda" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
