@@ -1,15 +1,4 @@
-os: osx
-osx_image: xcode10
-env:
-  - LC_CTYPE=en_US.UTF-8 LANG=en_US.UTF-8
-before_install:
-  - rvm install ruby-2.2.2
-  - gem install cocoapods
-  - gem install xcpretty -N
-  - brew update
-dependencies:
-  pre:
-    - xcrun instruments -w 'iPhone X (11.4)' || sleep 15
-script:
-  - set -o pipefail
-  - xcodebuild -workspace Shefuda.xcworkspace -scheme Shefuda -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
+language: swift
+xcode_project: Shefuda.xcodeproj
+xcode_scheme: Shefuda
+xcode_destination: platform=iOS Simulator,OS=12.0,name=iPhone X
