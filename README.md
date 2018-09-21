@@ -15,7 +15,7 @@ Seriously? You should commit Harakiri.
 
 ```json
 {
-  "minimum": "iOS 11.4"
+  "minimum": "iOS 11.4",
   "maximum": "iOS 12.0"
 }
 ```
