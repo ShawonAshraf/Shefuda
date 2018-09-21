@@ -1,6 +1,4 @@
 language: swift
 xcode_project: Shefuda.xcodeproj
-xcode_scheme:
-  - SwiftySound
-  - Shefuda
+xcode_scheme: Shefuda
 xcode_destination: platform=iOS Simulator,OS=11.4,name=iPhone X
