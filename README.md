@@ -12,7 +12,14 @@ Recently someone took the generous task of creating sound clips from the famous/
 Seriously? You should commit Harakiri.
 
 ## Platforms Supported
-The project was built against iOS 11.4 SDK. Should work on iOS 10 as well (not that I'm going to test that, upto you!)
+
+```json
+{
+  minimum: 'iOS 11.4'
+  maximum: 'iOS 12.0'
+}
+```
+
 
 ## Dependencies
 `SwiftySound` from `Cocoapods`.
