@@ -2,4 +2,8 @@ language: swift
 osx_image: xcode9.4
 xcode_project: Shefuda.xcodeproj
 xcode_scheme: Shefuda
+before_install:
+  - rvm install ruby
+  - gem install cocoapods
+  - pod repo update
 xcode_destination: platform=iOS Simulator,OS=11.4,name=iPhone X
