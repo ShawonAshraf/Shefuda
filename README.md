@@ -57,4 +57,4 @@ You can do that from Xcode. Just make sure you have your Apple ID. You can follo
 MIT
 
 ## Acknowledgements
-I don't know I would've written all those labels in Bangla without [iAvro](https://www.omicronlab.com/iavro.html).
+I don't know how I would've written all those labels in Bangla without [iAvro](https://www.omicronlab.com/iavro.html).
