@@ -18,6 +18,8 @@ final class SoundPlayerController {
     // MARK: Helper methods
     // plays soundclip by title
     func play(soundTitle title: String) {
+        // stop if anything is playing.
+        Sound.stopAll()
         // fetch sound URL
         if let soundURL = getSoundFileURL(title: title) {
             Sound.play(url: soundURL)
