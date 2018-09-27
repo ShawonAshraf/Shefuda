@@ -7,8 +7,6 @@
 //
 
 import Foundation
-import SwiftySound
-
 
 final class SoundPlayerController {
     
@@ -18,36 +16,28 @@ final class SoundPlayerController {
     // MARK: Helper methods
     // plays soundclip by title
     func play(soundTitle title: String) {
-        // stop if anything is playing.
-        Sound.stopAll()
-        // fetch sound URL
-        if let soundURL = getSoundFileURL(title: title) {
-            Sound.play(url: soundURL)
-        } else {
-            print("File doesn't exist")
-        }
-        
+       
     }
     
     // gets soundfile url by title
-    func getSoundFileURL(title: String) -> URL? {
-        let soundResource = SoundClipData.soundClips[title]
-        
-        let file = Bundle.main.path(forResource: soundResource, ofType: SoundClipData.fileExtension)
-        
-        if let fileURL = file {
-            print("playing!")
-            let url = URL(fileURLWithPath: fileURL)
-            return url
-        } else {
-            print("File doesn't exist")
-            return nil
-        }
-    }
+//    func getSoundFileURL(title: String) -> URL? {
+//        let soundResource = SoundClipData.soundClips[title]
+//
+//        let file = Bundle.main.path(forResource: soundResource, ofType: SoundClipData.fileExtension)
+//
+//        if let fileURL = file {
+//            print("playing!")
+//            let url = URL(fileURLWithPath: fileURL)
+//            return url
+//        } else {
+//            print("File doesn't exist")
+//            return nil
+//        }
+//    }
     
     // stop playing
-    func stop() {
-        Sound.stopAll()
-    }
+//    func stop() {
+//        Sound.stopAll()
+//    }
     
 }

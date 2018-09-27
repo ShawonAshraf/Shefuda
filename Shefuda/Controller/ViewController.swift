@@ -28,16 +28,16 @@ class ViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         // get row textlabel
         let cell = tableView.cellForRow(at: indexPath)
-        let title = cell?.textLabel?.text
+//        let title = cell?.textLabel?.text
         
-        // toggle playing state
-        if isPlaying {
-            SoundPlayerController.soundPlayer.stop()
-            isPlaying = !isPlaying
-        }
-        
-        // send title to player
-        SoundPlayerController.soundPlayer.play(soundTitle: title!)
+//        // toggle playing state
+//        if isPlaying {
+//            SoundPlayerController.soundPlayer.stop()
+//            isPlaying = !isPlaying
+//        }
+//
+//        // send title to player
+//        SoundPlayerController.soundPlayer.play(soundTitle: title!)
         
         // deselect the row
         tableView.deselectRow(at: indexPath, animated: true)
