@@ -21,25 +21,14 @@ Seriously? You should commit Harakiri.
 ```
 
 ## Dependencies
-`SwiftySound` from `Cocoapods`.
+None.
 
 ## Running the project
-First of all you need a mac with macOS and Xcode installed. No you can't do it on any other OS (not even on windows in bootcamp).
+First of all you need a mac with macOS and Xcode installed. No you can't do it on any other OS (not even on windows in bootcamp). Also you need to make sure your mac has macOS Mojave and has Xcode 10 or greater.
 
-- Install Homebrew from [here](https://brew.sh/)
-- Run the following commands
-```bash
-brew update
-brew install ruby
-sudo gem install cocoapods
-```
 - Clone the repo or download as zip.
-- `cd` into the folder with `Terminal` or `iTerm2`
-- Install the pods
-```bash
-pod install
-```
-- Open the `Shefuda.xcworkspace` file. (Opens in Xcode)
+- `cd` into the folder with `Terminal`
+- Open the `Shefuda.xcodeproj` file. (Opens in [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12))
 - Run it on your device or simulator.
 
 ## Device Support
@@ -57,4 +46,7 @@ You can do that from Xcode. Just make sure you have your Apple ID. You can follo
 MIT
 
 ## Acknowledgements
-I don't know how I would've written all those labels in Bangla without [iAvro](https://www.omicronlab.com/iavro.html).
+- I don't know how I would've written all those labels in Bangla without [iAvro](https://www.omicronlab.com/iavro.html).
+- [Creating a Music Player App in Swift 3 by Erica Millado on Medium](https://medium.com/yay-its-erica/creating-a-music-player-app-in-swift-3-53809471f663)
+- [https://youtu.be/XMPOns7VIXI](https://youtu.be/XMPOns7VIXI)
+
