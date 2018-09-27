@@ -35,7 +35,7 @@ class ViewController: UITableViewController {
             SoundPlayerController.soundPlayer.stop()
             isPlaying = !isPlaying
         }
-        
+
         // send title to player
         SoundPlayerController.soundPlayer.play(soundTitle: title!)
         

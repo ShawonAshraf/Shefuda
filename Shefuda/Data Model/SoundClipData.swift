@@ -109,7 +109,6 @@ class SoundClipData {
         "অশিক্ষিত মুরুক্ষ বস্তি": "oshikhkhito_morkhobo_bosti",
         "পাদ দিলে হাগো": "pad_dile_hago",
         "প্যান্ট খোলো": "pant_kholo",
-        "পিসলা পানি বাইর": "pisla_pani_bair",
         "প্রেম ধর্ম": "prem_dhormo",
         "প্রেমে স্যাকা": "preme_seka",
         "প্রিয়তমা তোমাকে ভালোবাসি": "priyotoma_tomake_valobashi",
