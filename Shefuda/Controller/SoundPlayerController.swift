@@ -20,7 +20,6 @@ final class SoundPlayerController {
     // MARK: Helper methods
     // plays soundclip by title
     func play(soundTitle title: String) {
-        stop()
         if let soundFileURL = getSoundFileURL(title: title) {
             do {
                 audioPlayer = try AVAudioPlayer(contentsOf: soundFileURL)
