@@ -29,15 +29,21 @@ class ViewController: UITableViewController {
         // get row textlabel
         let cell = tableView.cellForRow(at: indexPath)
         let title = cell?.textLabel?.text
-        
-        // toggle playing state
-        if isPlaying {
-            SoundPlayerController.soundPlayer.stop()
-            isPlaying = !isPlaying
-        }
 
         // send title to player
-        SoundPlayerController.soundPlayer.play(soundTitle: title!)
+        do {
+            try SoundPlayerController.instance.play(soundTitle: title!)
+        } catch {
+            // show an alert
+            let alert = UIAlertController(title: "এটা বলা যাচ্ছে না", message: "কোন হারামজাদা যেন ফাইলটা চুরি করেছে!", preferredStyle: .alert)
+            let action = UIAlertAction(title: "ধুর বাল!", style: .default) { (_) in
+                // do nothing
+            }
+            alert.addAction(action)
+            
+            // present
+            present(alert, animated: true, completion: nil)
+        }
         
         // deselect the row
         tableView.deselectRow(at: indexPath, animated: true)
