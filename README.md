@@ -1,7 +1,7 @@
 # Shefuda
 > A Shefatullah Soundboard app for iOS
 
-[![Build Status](https://travis-ci.org/ShawonAshraf/Shefuda.svg?branch=master)](https://travis-ci.org/ShawonAshraf/Shefuda)
+[![CodeFactor](https://www.codefactor.io/repository/github/shawonashraf/shefuda/badge)](https://www.codefactor.io/repository/github/shawonashraf/shefuda) [![Build Status](https://travis-ci.org/ShawonAshraf/Shefuda.svg?branch=master)](https://travis-ci.org/ShawonAshraf/Shefuda)
 
 ## Why though?
 Recently someone took the generous task of creating sound clips from the famous/infamous facebook live video of Shefatullah and developed a soundboard app for Android. So I thought, why not one for iOS?
